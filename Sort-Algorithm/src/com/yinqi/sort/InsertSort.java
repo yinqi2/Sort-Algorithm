@@ -14,7 +14,7 @@ public class InsertSort {
 
 	//插入排序
 	public static void insertSort(int[] arr, int n) {
-
+        //循环插入剩余的元素到有序序列
 		for (int i = 1; i < n; i++) {
 			int temp = arr[i];
 			//从[0~i-1]中寻找正确插入的位置
